@@ -1,0 +1,1105 @@
+{
+    "actions": [{
+        "global_action_seq": 230945076,
+        "account_action_seq": 0,
+        "block_num": 10893918,
+        "block_time": "2018-08-13T09:19:54.500",
+        "action_trace": {
+          "receipt": {
+            "receiver": "jeffzhengzrj",
+            "act_digest": "ab7f36528ae8437b8db564bda3ef9ffb3c42e658eb2fec26d830af1b42dabeb8",
+            "global_sequence": 230945076,
+            "recv_sequence": 5,
+            "auth_sequence": [[
+                "heztanrqgene",
+                68373
+              ]
+            ],
+            "code_sequence": 2,
+            "abi_sequence": 2
+          },
+          "act": {
+            "account": "eosio.token",
+            "name": "transfer",
+            "authorization": [{
+                "actor": "heztanrqgene",
+                "permission": "active"
+              }
+            ],
+            "data": {
+              "from": "heztanrqgene",
+              "to": "jeffzhengzrj",
+              "quantity": "999.9500 EOS",
+              "memo": ""
+            },
+            "hex_data": "a0a662f64e93bf6af0ee6753b5bf967a8c9498000000000004454f530000000000"
+          },
+          "elapsed": 9,
+          "cpu_usage": 0,
+          "console": "",
+          "total_cpu_usage": 0,
+          "trx_id": "5407d2f47cef663bdf04454dfcf83adb76d9a4d07b82bcb3abceeeec807a7932",
+          "inline_traces": []
+        }
+      },{
+        "global_action_seq": 230971299,
+        "account_action_seq": 1,
+        "block_num": 10894338,
+        "block_time": "2018-08-13T09:23:46.500",
+        "action_trace": {
+          "receipt": {
+            "receiver": "eosio",
+            "act_digest": "9d018c12dc2d10947182a882f6491009ec276f1eba2c7c84115e3a8f24701b6d",
+            "global_sequence": 230971299,
+            "recv_sequence": 13181242,
+            "auth_sequence": [[
+                "jeffzhengzrj",
+                15
+              ]
+            ],
+            "code_sequence": 8,
+            "abi_sequence": 9
+          },
+          "act": {
+            "account": "eosio",
+            "name": "buyram",
+            "authorization": [{
+                "actor": "jeffzhengzrj",
+                "permission": "active"
+              }
+            ],
+            "data": {
+              "payer": "jeffzhengzrj",
+              "receiver": "jeffzhengzrj",
+              "quant": "100.5000 EOS"
+            },
+            "hex_data": "f0ee6753b5bf967af0ee6753b5bf967ac8550f000000000004454f5300000000"
+          },
+          "elapsed": 1061,
+          "cpu_usage": 0,
+          "console": "",
+          "total_cpu_usage": 0,
+          "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+          "inline_traces": [{
+              "receipt": {
+                "receiver": "eosio.token",
+                "act_digest": "d57a68bc054a3e69e0fb7728a080a3e7cf182c05dfee4acd85d9ccc929336d7c",
+                "global_sequence": 230971300,
+                "recv_sequence": 3488871,
+                "auth_sequence": [[
+                    "eosio.ram",
+                    687717
+                  ],[
+                    "jeffzhengzrj",
+                    16
+                  ]
+                ],
+                "code_sequence": 2,
+                "abi_sequence": 2
+              },
+              "act": {
+                "account": "eosio.token",
+                "name": "transfer",
+                "authorization": [{
+                    "actor": "jeffzhengzrj",
+                    "permission": "active"
+                  },{
+                    "actor": "eosio.ram",
+                    "permission": "active"
+                  }
+                ],
+                "data": {
+                  "from": "jeffzhengzrj",
+                  "to": "eosio.ram",
+                  "quantity": "99.9975 EOS",
+                  "memo": "buy ram"
+                },
+                "hex_data": "f0ee6753b5bf967a000090e602ea305527420f000000000004454f5300000000076275792072616d"
+              },
+              "elapsed": 380,
+              "cpu_usage": 0,
+              "console": "",
+              "total_cpu_usage": 0,
+              "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+              "inline_traces": [{
+                  "receipt": {
+                    "receiver": "jeffzhengzrj",
+                    "act_digest": "d57a68bc054a3e69e0fb7728a080a3e7cf182c05dfee4acd85d9ccc929336d7c",
+                    "global_sequence": 230971301,
+                    "recv_sequence": 6,
+                    "auth_sequence": [[
+                        "eosio.ram",
+                        687718
+                      ],[
+                        "jeffzhengzrj",
+                        17
+                      ]
+                    ],
+                    "code_sequence": 2,
+                    "abi_sequence": 2
+                  },
+                  "act": {
+                    "account": "eosio.token",
+                    "name": "transfer",
+                    "authorization": [{
+                        "actor": "jeffzhengzrj",
+                        "permission": "active"
+                      },{
+                        "actor": "eosio.ram",
+                        "permission": "active"
+                      }
+                    ],
+                    "data": {
+                      "from": "jeffzhengzrj",
+                      "to": "eosio.ram",
+                      "quantity": "99.9975 EOS",
+                      "memo": "buy ram"
+                    },
+                    "hex_data": "f0ee6753b5bf967a000090e602ea305527420f000000000004454f5300000000076275792072616d"
+                  },
+                  "elapsed": 6,
+                  "cpu_usage": 0,
+                  "console": "",
+                  "total_cpu_usage": 0,
+                  "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+                  "inline_traces": []
+                },{
+                  "receipt": {
+                    "receiver": "eosio.ram",
+                    "act_digest": "d57a68bc054a3e69e0fb7728a080a3e7cf182c05dfee4acd85d9ccc929336d7c",
+                    "global_sequence": 230971302,
+                    "recv_sequence": 718089,
+                    "auth_sequence": [[
+                        "eosio.ram",
+                        687719
+                      ],[
+                        "jeffzhengzrj",
+                        18
+                      ]
+                    ],
+                    "code_sequence": 2,
+                    "abi_sequence": 2
+                  },
+                  "act": {
+                    "account": "eosio.token",
+                    "name": "transfer",
+                    "authorization": [{
+                        "actor": "jeffzhengzrj",
+                        "permission": "active"
+                      },{
+                        "actor": "eosio.ram",
+                        "permission": "active"
+                      }
+                    ],
+                    "data": {
+                      "from": "jeffzhengzrj",
+                      "to": "eosio.ram",
+                      "quantity": "99.9975 EOS",
+                      "memo": "buy ram"
+                    },
+                    "hex_data": "f0ee6753b5bf967a000090e602ea305527420f000000000004454f5300000000076275792072616d"
+                  },
+                  "elapsed": 4,
+                  "cpu_usage": 0,
+                  "console": "",
+                  "total_cpu_usage": 0,
+                  "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+                  "inline_traces": []
+                }
+              ]
+            },{
+              "receipt": {
+                "receiver": "eosio.token",
+                "act_digest": "7d194722a9315c8d85299f29390bb2bd3259de796d3c0bd209e559f7da39ca8a",
+                "global_sequence": 230971303,
+                "recv_sequence": 3488872,
+                "auth_sequence": [[
+                    "jeffzhengzrj",
+                    19
+                  ]
+                ],
+                "code_sequence": 2,
+                "abi_sequence": 2
+              },
+              "act": {
+                "account": "eosio.token",
+                "name": "transfer",
+                "authorization": [{
+                    "actor": "jeffzhengzrj",
+                    "permission": "active"
+                  }
+                ],
+                "data": {
+                  "from": "jeffzhengzrj",
+                  "to": "eosio.ramfee",
+                  "quantity": "0.5025 EOS",
+                  "memo": "ram fee"
+                },
+                "hex_data": "f0ee6753b5bf967aa0d492e602ea3055a11300000000000004454f53000000000772616d20666565"
+              },
+              "elapsed": 245,
+              "cpu_usage": 0,
+              "console": "",
+              "total_cpu_usage": 0,
+              "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+              "inline_traces": [{
+                  "receipt": {
+                    "receiver": "jeffzhengzrj",
+                    "act_digest": "7d194722a9315c8d85299f29390bb2bd3259de796d3c0bd209e559f7da39ca8a",
+                    "global_sequence": 230971304,
+                    "recv_sequence": 7,
+                    "auth_sequence": [[
+                        "jeffzhengzrj",
+                        20
+                      ]
+                    ],
+                    "code_sequence": 2,
+                    "abi_sequence": 2
+                  },
+                  "act": {
+                    "account": "eosio.token",
+                    "name": "transfer",
+                    "authorization": [{
+                        "actor": "jeffzhengzrj",
+                        "permission": "active"
+                      }
+                    ],
+                    "data": {
+                      "from": "jeffzhengzrj",
+                      "to": "eosio.ramfee",
+                      "quantity": "0.5025 EOS",
+                      "memo": "ram fee"
+                    },
+                    "hex_data": "f0ee6753b5bf967aa0d492e602ea3055a11300000000000004454f53000000000772616d20666565"
+                  },
+                  "elapsed": 3,
+                  "cpu_usage": 0,
+                  "console": "",
+                  "total_cpu_usage": 0,
+                  "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+                  "inline_traces": []
+                },{
+                  "receipt": {
+                    "receiver": "eosio.ramfee",
+                    "act_digest": "7d194722a9315c8d85299f29390bb2bd3259de796d3c0bd209e559f7da39ca8a",
+                    "global_sequence": 230971305,
+                    "recv_sequence": 715208,
+                    "auth_sequence": [[
+                        "jeffzhengzrj",
+                        21
+                      ]
+                    ],
+                    "code_sequence": 2,
+                    "abi_sequence": 2
+                  },
+                  "act": {
+                    "account": "eosio.token",
+                    "name": "transfer",
+                    "authorization": [{
+                        "actor": "jeffzhengzrj",
+                        "permission": "active"
+                      }
+                    ],
+                    "data": {
+                      "from": "jeffzhengzrj",
+                      "to": "eosio.ramfee",
+                      "quantity": "0.5025 EOS",
+                      "memo": "ram fee"
+                    },
+                    "hex_data": "f0ee6753b5bf967aa0d492e602ea3055a11300000000000004454f53000000000772616d20666565"
+                  },
+                  "elapsed": 3,
+                  "cpu_usage": 0,
+                  "console": "",
+                  "total_cpu_usage": 0,
+                  "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+                  "inline_traces": []
+                }
+              ]
+            }
+          ]
+        }
+      },{
+        "global_action_seq": 230971300,
+        "account_action_seq": 2,
+        "block_num": 10894338,
+        "block_time": "2018-08-13T09:23:46.500",
+        "action_trace": {
+          "receipt": {
+            "receiver": "eosio.token",
+            "act_digest": "d57a68bc054a3e69e0fb7728a080a3e7cf182c05dfee4acd85d9ccc929336d7c",
+            "global_sequence": 230971300,
+            "recv_sequence": 3488871,
+            "auth_sequence": [[
+                "eosio.ram",
+                687717
+              ],[
+                "jeffzhengzrj",
+                16
+              ]
+            ],
+            "code_sequence": 2,
+            "abi_sequence": 2
+          },
+          "act": {
+            "account": "eosio.token",
+            "name": "transfer",
+            "authorization": [{
+                "actor": "jeffzhengzrj",
+                "permission": "active"
+              },{
+                "actor": "eosio.ram",
+                "permission": "active"
+              }
+            ],
+            "data": {
+              "from": "jeffzhengzrj",
+              "to": "eosio.ram",
+              "quantity": "99.9975 EOS",
+              "memo": "buy ram"
+            },
+            "hex_data": "f0ee6753b5bf967a000090e602ea305527420f000000000004454f5300000000076275792072616d"
+          },
+          "elapsed": 380,
+          "cpu_usage": 0,
+          "console": "",
+          "total_cpu_usage": 0,
+          "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+          "inline_traces": [{
+              "receipt": {
+                "receiver": "jeffzhengzrj",
+                "act_digest": "d57a68bc054a3e69e0fb7728a080a3e7cf182c05dfee4acd85d9ccc929336d7c",
+                "global_sequence": 230971301,
+                "recv_sequence": 6,
+                "auth_sequence": [[
+                    "eosio.ram",
+                    687718
+                  ],[
+                    "jeffzhengzrj",
+                    17
+                  ]
+                ],
+                "code_sequence": 2,
+                "abi_sequence": 2
+              },
+              "act": {
+                "account": "eosio.token",
+                "name": "transfer",
+                "authorization": [{
+                    "actor": "jeffzhengzrj",
+                    "permission": "active"
+                  },{
+                    "actor": "eosio.ram",
+                    "permission": "active"
+                  }
+                ],
+                "data": {
+                  "from": "jeffzhengzrj",
+                  "to": "eosio.ram",
+                  "quantity": "99.9975 EOS",
+                  "memo": "buy ram"
+                },
+                "hex_data": "f0ee6753b5bf967a000090e602ea305527420f000000000004454f5300000000076275792072616d"
+              },
+              "elapsed": 6,
+              "cpu_usage": 0,
+              "console": "",
+              "total_cpu_usage": 0,
+              "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+              "inline_traces": []
+            },{
+              "receipt": {
+                "receiver": "eosio.ram",
+                "act_digest": "d57a68bc054a3e69e0fb7728a080a3e7cf182c05dfee4acd85d9ccc929336d7c",
+                "global_sequence": 230971302,
+                "recv_sequence": 718089,
+                "auth_sequence": [[
+                    "eosio.ram",
+                    687719
+                  ],[
+                    "jeffzhengzrj",
+                    18
+                  ]
+                ],
+                "code_sequence": 2,
+                "abi_sequence": 2
+              },
+              "act": {
+                "account": "eosio.token",
+                "name": "transfer",
+                "authorization": [{
+                    "actor": "jeffzhengzrj",
+                    "permission": "active"
+                  },{
+                    "actor": "eosio.ram",
+                    "permission": "active"
+                  }
+                ],
+                "data": {
+                  "from": "jeffzhengzrj",
+                  "to": "eosio.ram",
+                  "quantity": "99.9975 EOS",
+                  "memo": "buy ram"
+                },
+                "hex_data": "f0ee6753b5bf967a000090e602ea305527420f000000000004454f5300000000076275792072616d"
+              },
+              "elapsed": 4,
+              "cpu_usage": 0,
+              "console": "",
+              "total_cpu_usage": 0,
+              "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+              "inline_traces": []
+            }
+          ]
+        }
+      },{
+        "global_action_seq": 230971301,
+        "account_action_seq": 3,
+        "block_num": 10894338,
+        "block_time": "2018-08-13T09:23:46.500",
+        "action_trace": {
+          "receipt": {
+            "receiver": "jeffzhengzrj",
+            "act_digest": "d57a68bc054a3e69e0fb7728a080a3e7cf182c05dfee4acd85d9ccc929336d7c",
+            "global_sequence": 230971301,
+            "recv_sequence": 6,
+            "auth_sequence": [[
+                "eosio.ram",
+                687718
+              ],[
+                "jeffzhengzrj",
+                17
+              ]
+            ],
+            "code_sequence": 2,
+            "abi_sequence": 2
+          },
+          "act": {
+            "account": "eosio.token",
+            "name": "transfer",
+            "authorization": [{
+                "actor": "jeffzhengzrj",
+                "permission": "active"
+              },{
+                "actor": "eosio.ram",
+                "permission": "active"
+              }
+            ],
+            "data": {
+              "from": "jeffzhengzrj",
+              "to": "eosio.ram",
+              "quantity": "99.9975 EOS",
+              "memo": "buy ram"
+            },
+            "hex_data": "f0ee6753b5bf967a000090e602ea305527420f000000000004454f5300000000076275792072616d"
+          },
+          "elapsed": 6,
+          "cpu_usage": 0,
+          "console": "",
+          "total_cpu_usage": 0,
+          "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+          "inline_traces": []
+        }
+      },{
+        "global_action_seq": 230971302,
+        "account_action_seq": 4,
+        "block_num": 10894338,
+        "block_time": "2018-08-13T09:23:46.500",
+        "action_trace": {
+          "receipt": {
+            "receiver": "eosio.ram",
+            "act_digest": "d57a68bc054a3e69e0fb7728a080a3e7cf182c05dfee4acd85d9ccc929336d7c",
+            "global_sequence": 230971302,
+            "recv_sequence": 718089,
+            "auth_sequence": [[
+                "eosio.ram",
+                687719
+              ],[
+                "jeffzhengzrj",
+                18
+              ]
+            ],
+            "code_sequence": 2,
+            "abi_sequence": 2
+          },
+          "act": {
+            "account": "eosio.token",
+            "name": "transfer",
+            "authorization": [{
+                "actor": "jeffzhengzrj",
+                "permission": "active"
+              },{
+                "actor": "eosio.ram",
+                "permission": "active"
+              }
+            ],
+            "data": {
+              "from": "jeffzhengzrj",
+              "to": "eosio.ram",
+              "quantity": "99.9975 EOS",
+              "memo": "buy ram"
+            },
+            "hex_data": "f0ee6753b5bf967a000090e602ea305527420f000000000004454f5300000000076275792072616d"
+          },
+          "elapsed": 4,
+          "cpu_usage": 0,
+          "console": "",
+          "total_cpu_usage": 0,
+          "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+          "inline_traces": []
+        }
+      },{
+        "global_action_seq": 230971303,
+        "account_action_seq": 5,
+        "block_num": 10894338,
+        "block_time": "2018-08-13T09:23:46.500",
+        "action_trace": {
+          "receipt": {
+            "receiver": "eosio.token",
+            "act_digest": "7d194722a9315c8d85299f29390bb2bd3259de796d3c0bd209e559f7da39ca8a",
+            "global_sequence": 230971303,
+            "recv_sequence": 3488872,
+            "auth_sequence": [[
+                "jeffzhengzrj",
+                19
+              ]
+            ],
+            "code_sequence": 2,
+            "abi_sequence": 2
+          },
+          "act": {
+            "account": "eosio.token",
+            "name": "transfer",
+            "authorization": [{
+                "actor": "jeffzhengzrj",
+                "permission": "active"
+              }
+            ],
+            "data": {
+              "from": "jeffzhengzrj",
+              "to": "eosio.ramfee",
+              "quantity": "0.5025 EOS",
+              "memo": "ram fee"
+            },
+            "hex_data": "f0ee6753b5bf967aa0d492e602ea3055a11300000000000004454f53000000000772616d20666565"
+          },
+          "elapsed": 245,
+          "cpu_usage": 0,
+          "console": "",
+          "total_cpu_usage": 0,
+          "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+          "inline_traces": [{
+              "receipt": {
+                "receiver": "jeffzhengzrj",
+                "act_digest": "7d194722a9315c8d85299f29390bb2bd3259de796d3c0bd209e559f7da39ca8a",
+                "global_sequence": 230971304,
+                "recv_sequence": 7,
+                "auth_sequence": [[
+                    "jeffzhengzrj",
+                    20
+                  ]
+                ],
+                "code_sequence": 2,
+                "abi_sequence": 2
+              },
+              "act": {
+                "account": "eosio.token",
+                "name": "transfer",
+                "authorization": [{
+                    "actor": "jeffzhengzrj",
+                    "permission": "active"
+                  }
+                ],
+                "data": {
+                  "from": "jeffzhengzrj",
+                  "to": "eosio.ramfee",
+                  "quantity": "0.5025 EOS",
+                  "memo": "ram fee"
+                },
+                "hex_data": "f0ee6753b5bf967aa0d492e602ea3055a11300000000000004454f53000000000772616d20666565"
+              },
+              "elapsed": 3,
+              "cpu_usage": 0,
+              "console": "",
+              "total_cpu_usage": 0,
+              "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+              "inline_traces": []
+            },{
+              "receipt": {
+                "receiver": "eosio.ramfee",
+                "act_digest": "7d194722a9315c8d85299f29390bb2bd3259de796d3c0bd209e559f7da39ca8a",
+                "global_sequence": 230971305,
+                "recv_sequence": 715208,
+                "auth_sequence": [[
+                    "jeffzhengzrj",
+                    21
+                  ]
+                ],
+                "code_sequence": 2,
+                "abi_sequence": 2
+              },
+              "act": {
+                "account": "eosio.token",
+                "name": "transfer",
+                "authorization": [{
+                    "actor": "jeffzhengzrj",
+                    "permission": "active"
+                  }
+                ],
+                "data": {
+                  "from": "jeffzhengzrj",
+                  "to": "eosio.ramfee",
+                  "quantity": "0.5025 EOS",
+                  "memo": "ram fee"
+                },
+                "hex_data": "f0ee6753b5bf967aa0d492e602ea3055a11300000000000004454f53000000000772616d20666565"
+              },
+              "elapsed": 3,
+              "cpu_usage": 0,
+              "console": "",
+              "total_cpu_usage": 0,
+              "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+              "inline_traces": []
+            }
+          ]
+        }
+      },{
+        "global_action_seq": 230971304,
+        "account_action_seq": 6,
+        "block_num": 10894338,
+        "block_time": "2018-08-13T09:23:46.500",
+        "action_trace": {
+          "receipt": {
+            "receiver": "jeffzhengzrj",
+            "act_digest": "7d194722a9315c8d85299f29390bb2bd3259de796d3c0bd209e559f7da39ca8a",
+            "global_sequence": 230971304,
+            "recv_sequence": 7,
+            "auth_sequence": [[
+                "jeffzhengzrj",
+                20
+              ]
+            ],
+            "code_sequence": 2,
+            "abi_sequence": 2
+          },
+          "act": {
+            "account": "eosio.token",
+            "name": "transfer",
+            "authorization": [{
+                "actor": "jeffzhengzrj",
+                "permission": "active"
+              }
+            ],
+            "data": {
+              "from": "jeffzhengzrj",
+              "to": "eosio.ramfee",
+              "quantity": "0.5025 EOS",
+              "memo": "ram fee"
+            },
+            "hex_data": "f0ee6753b5bf967aa0d492e602ea3055a11300000000000004454f53000000000772616d20666565"
+          },
+          "elapsed": 3,
+          "cpu_usage": 0,
+          "console": "",
+          "total_cpu_usage": 0,
+          "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+          "inline_traces": []
+        }
+      },{
+        "global_action_seq": 230971305,
+        "account_action_seq": 7,
+        "block_num": 10894338,
+        "block_time": "2018-08-13T09:23:46.500",
+        "action_trace": {
+          "receipt": {
+            "receiver": "eosio.ramfee",
+            "act_digest": "7d194722a9315c8d85299f29390bb2bd3259de796d3c0bd209e559f7da39ca8a",
+            "global_sequence": 230971305,
+            "recv_sequence": 715208,
+            "auth_sequence": [[
+                "jeffzhengzrj",
+                21
+              ]
+            ],
+            "code_sequence": 2,
+            "abi_sequence": 2
+          },
+          "act": {
+            "account": "eosio.token",
+            "name": "transfer",
+            "authorization": [{
+                "actor": "jeffzhengzrj",
+                "permission": "active"
+              }
+            ],
+            "data": {
+              "from": "jeffzhengzrj",
+              "to": "eosio.ramfee",
+              "quantity": "0.5025 EOS",
+              "memo": "ram fee"
+            },
+            "hex_data": "f0ee6753b5bf967aa0d492e602ea3055a11300000000000004454f53000000000772616d20666565"
+          },
+          "elapsed": 3,
+          "cpu_usage": 0,
+          "console": "",
+          "total_cpu_usage": 0,
+          "trx_id": "90ec64f0cd18f36f204b89166c9df4cc42c36c3e9a25bf737eaf0ff2f3051660",
+          "inline_traces": []
+        }
+      },{
+        "global_action_seq": 230980053,
+        "account_action_seq": 8,
+        "block_num": 10894444,
+        "block_time": "2018-08-13T09:24:50.000",
+        "action_trace": {
+          "receipt": {
+            "receiver": "eosio",
+            "act_digest": "a171876df3c9c4136252f3fdadddcad2ddc004f71c5239ada634eba306716196",
+            "global_sequence": 230980053,
+            "recv_sequence": 13181352,
+            "auth_sequence": [[
+                "jeffzhengzrj",
+                22
+              ]
+            ],
+            "code_sequence": 8,
+            "abi_sequence": 9
+          },
+          "act": {
+            "account": "eosio",
+            "name": "delegatebw",
+            "authorization": [{
+                "actor": "jeffzhengzrj",
+                "permission": "active"
+              }
+            ],
+            "data": {
+              "from": "jeffzhengzrj",
+              "receiver": "jeffzhengzrj",
+              "stake_net_quantity": "38.0000 EOS",
+              "stake_cpu_quantity": "37.9000 EOS",
+              "transfer": 0
+            },
+            "hex_data": "f0ee6753b5bf967af0ee6753b5bf967a60cc05000000000004454f530000000078c805000000000004454f530000000000"
+          },
+          "elapsed": 5391,
+          "cpu_usage": 0,
+          "console": "",
+          "total_cpu_usage": 0,
+          "trx_id": "ab3857fee7d1b5c033c112f725eddb2d3430c36cfa477bca00e5d626ce7d719b",
+          "inline_traces": [{
+              "receipt": {
+                "receiver": "eosio.token",
+                "act_digest": "19915495febe44594bafb4e6ef399e233ba5db9b8f226992b33d28bf6ca3e5c0",
+                "global_sequence": 230980054,
+                "recv_sequence": 3488889,
+                "auth_sequence": [[
+                    "jeffzhengzrj",
+                    23
+                  ]
+                ],
+                "code_sequence": 2,
+                "abi_sequence": 2
+              },
+              "act": {
+                "account": "eosio.token",
+                "name": "transfer",
+                "authorization": [{
+                    "actor": "jeffzhengzrj",
+                    "permission": "active"
+                  }
+                ],
+                "data": {
+                  "from": "jeffzhengzrj",
+                  "to": "eosio.stake",
+                  "quantity": "75.9000 EOS",
+                  "memo": "stake bandwidth"
+                },
+                "hex_data": "f0ee6753b5bf967a0014341903ea3055d8940b000000000004454f53000000000f7374616b652062616e647769647468"
+              },
+              "elapsed": 412,
+              "cpu_usage": 0,
+              "console": "",
+              "total_cpu_usage": 0,
+              "trx_id": "ab3857fee7d1b5c033c112f725eddb2d3430c36cfa477bca00e5d626ce7d719b",
+              "inline_traces": [{
+                  "receipt": {
+                    "receiver": "jeffzhengzrj",
+                    "act_digest": "19915495febe44594bafb4e6ef399e233ba5db9b8f226992b33d28bf6ca3e5c0",
+                    "global_sequence": 230980055,
+                    "recv_sequence": 8,
+                    "auth_sequence": [[
+                        "jeffzhengzrj",
+                        24
+                      ]
+                    ],
+                    "code_sequence": 2,
+                    "abi_sequence": 2
+                  },
+                  "act": {
+                    "account": "eosio.token",
+                    "name": "transfer",
+                    "authorization": [{
+                        "actor": "jeffzhengzrj",
+                        "permission": "active"
+                      }
+                    ],
+                    "data": {
+                      "from": "jeffzhengzrj",
+                      "to": "eosio.stake",
+                      "quantity": "75.9000 EOS",
+                      "memo": "stake bandwidth"
+                    },
+                    "hex_data": "f0ee6753b5bf967a0014341903ea3055d8940b000000000004454f53000000000f7374616b652062616e647769647468"
+                  },
+                  "elapsed": 5,
+                  "cpu_usage": 0,
+                  "console": "",
+                  "total_cpu_usage": 0,
+                  "trx_id": "ab3857fee7d1b5c033c112f725eddb2d3430c36cfa477bca00e5d626ce7d719b",
+                  "inline_traces": []
+                },{
+                  "receipt": {
+                    "receiver": "eosio.stake",
+                    "act_digest": "19915495febe44594bafb4e6ef399e233ba5db9b8f226992b33d28bf6ca3e5c0",
+                    "global_sequence": 230980056,
+                    "recv_sequence": 391748,
+                    "auth_sequence": [[
+                        "jeffzhengzrj",
+                        25
+                      ]
+                    ],
+                    "code_sequence": 2,
+                    "abi_sequence": 2
+                  },
+                  "act": {
+                    "account": "eosio.token",
+                    "name": "transfer",
+                    "authorization": [{
+                        "actor": "jeffzhengzrj",
+                        "permission": "active"
+                      }
+                    ],
+                    "data": {
+                      "from": "jeffzhengzrj",
+                      "to": "eosio.stake",
+                      "quantity": "75.9000 EOS",
+                      "memo": "stake bandwidth"
+                    },
+                    "hex_data": "f0ee6753b5bf967a0014341903ea3055d8940b000000000004454f53000000000f7374616b652062616e647769647468"
+                  },
+                  "elapsed": 4,
+                  "cpu_usage": 0,
+                  "console": "",
+                  "total_cpu_usage": 0,
+                  "trx_id": "ab3857fee7d1b5c033c112f725eddb2d3430c36cfa477bca00e5d626ce7d719b",
+                  "inline_traces": []
+                }
+              ]
+            }
+          ]
+        }
+      },{
+        "global_action_seq": 230980054,
+        "account_action_seq": 9,
+        "block_num": 10894444,
+        "block_time": "2018-08-13T09:24:50.000",
+        "action_trace": {
+          "receipt": {
+            "receiver": "eosio.token",
+            "act_digest": "19915495febe44594bafb4e6ef399e233ba5db9b8f226992b33d28bf6ca3e5c0",
+            "global_sequence": 230980054,
+            "recv_sequence": 3488889,
+            "auth_sequence": [[
+                "jeffzhengzrj",
+                23
+              ]
+            ],
+            "code_sequence": 2,
+            "abi_sequence": 2
+          },
+          "act": {
+            "account": "eosio.token",
+            "name": "transfer",
+            "authorization": [{
+                "actor": "jeffzhengzrj",
+                "permission": "active"
+              }
+            ],
+            "data": {
+              "from": "jeffzhengzrj",
+              "to": "eosio.stake",
+              "quantity": "75.9000 EOS",
+              "memo": "stake bandwidth"
+            },
+            "hex_data": "f0ee6753b5bf967a0014341903ea3055d8940b000000000004454f53000000000f7374616b652062616e647769647468"
+          },
+          "elapsed": 412,
+          "cpu_usage": 0,
+          "console": "",
+          "total_cpu_usage": 0,
+          "trx_id": "ab3857fee7d1b5c033c112f725eddb2d3430c36cfa477bca00e5d626ce7d719b",
+          "inline_traces": [{
+              "receipt": {
+                "receiver": "jeffzhengzrj",
+                "act_digest": "19915495febe44594bafb4e6ef399e233ba5db9b8f226992b33d28bf6ca3e5c0",
+                "global_sequence": 230980055,
+                "recv_sequence": 8,
+                "auth_sequence": [[
+                    "jeffzhengzrj",
+                    24
+                  ]
+                ],
+                "code_sequence": 2,
+                "abi_sequence": 2
+              },
+              "act": {
+                "account": "eosio.token",
+                "name": "transfer",
+                "authorization": [{
+                    "actor": "jeffzhengzrj",
+                    "permission": "active"
+                  }
+                ],
+                "data": {
+                  "from": "jeffzhengzrj",
+                  "to": "eosio.stake",
+                  "quantity": "75.9000 EOS",
+                  "memo": "stake bandwidth"
+                },
+                "hex_data": "f0ee6753b5bf967a0014341903ea3055d8940b000000000004454f53000000000f7374616b652062616e647769647468"
+              },
+              "elapsed": 5,
+              "cpu_usage": 0,
+              "console": "",
+              "total_cpu_usage": 0,
+              "trx_id": "ab3857fee7d1b5c033c112f725eddb2d3430c36cfa477bca00e5d626ce7d719b",
+              "inline_traces": []
+            },{
+              "receipt": {
+                "receiver": "eosio.stake",
+                "act_digest": "19915495febe44594bafb4e6ef399e233ba5db9b8f226992b33d28bf6ca3e5c0",
+                "global_sequence": 230980056,
+                "recv_sequence": 391748,
+                "auth_sequence": [[
+                    "jeffzhengzrj",
+                    25
+                  ]
+                ],
+                "code_sequence": 2,
+                "abi_sequence": 2
+              },
+              "act": {
+                "account": "eosio.token",
+                "name": "transfer",
+                "authorization": [{
+                    "actor": "jeffzhengzrj",
+                    "permission": "active"
+                  }
+                ],
+                "data": {
+                  "from": "jeffzhengzrj",
+                  "to": "eosio.stake",
+                  "quantity": "75.9000 EOS",
+                  "memo": "stake bandwidth"
+                },
+                "hex_data": "f0ee6753b5bf967a0014341903ea3055d8940b000000000004454f53000000000f7374616b652062616e647769647468"
+              },
+              "elapsed": 4,
+              "cpu_usage": 0,
+              "console": "",
+              "total_cpu_usage": 0,
+              "trx_id": "ab3857fee7d1b5c033c112f725eddb2d3430c36cfa477bca00e5d626ce7d719b",
+              "inline_traces": []
+            }
+          ]
+        }
+      },{
+        "global_action_seq": 230980055,
+        "account_action_seq": 10,
+        "block_num": 10894444,
+        "block_time": "2018-08-13T09:24:50.000",
+        "action_trace": {
+          "receipt": {
+            "receiver": "jeffzhengzrj",
+            "act_digest": "19915495febe44594bafb4e6ef399e233ba5db9b8f226992b33d28bf6ca3e5c0",
+            "global_sequence": 230980055,
+            "recv_sequence": 8,
+            "auth_sequence": [[
+                "jeffzhengzrj",
+                24
+              ]
+            ],
+            "code_sequence": 2,
+            "abi_sequence": 2
+          },
+          "act": {
+            "account": "eosio.token",
+            "name": "transfer",
+            "authorization": [{
+                "actor": "jeffzhengzrj",
+                "permission": "active"
+              }
+            ],
+            "data": {
+              "from": "jeffzhengzrj",
+              "to": "eosio.stake",
+              "quantity": "75.9000 EOS",
+              "memo": "stake bandwidth"
+            },
+            "hex_data": "f0ee6753b5bf967a0014341903ea3055d8940b000000000004454f53000000000f7374616b652062616e647769647468"
+          },
+          "elapsed": 5,
+          "cpu_usage": 0,
+          "console": "",
+          "total_cpu_usage": 0,
+          "trx_id": "ab3857fee7d1b5c033c112f725eddb2d3430c36cfa477bca00e5d626ce7d719b",
+          "inline_traces": []
+        }
+      },{
+        "global_action_seq": 230980056,
+        "account_action_seq": 11,
+        "block_num": 10894444,
+        "block_time": "2018-08-13T09:24:50.000",
+        "action_trace": {
+          "receipt": {
+            "receiver": "eosio.stake",
+            "act_digest": "19915495febe44594bafb4e6ef399e233ba5db9b8f226992b33d28bf6ca3e5c0",
+            "global_sequence": 230980056,
+            "recv_sequence": 391748,
+            "auth_sequence": [[
+                "jeffzhengzrj",
+                25
+              ]
+            ],
+            "code_sequence": 2,
+            "abi_sequence": 2
+          },
+          "act": {
+            "account": "eosio.token",
+            "name": "transfer",
+            "authorization": [{
+                "actor": "jeffzhengzrj",
+                "permission": "active"
+              }
+            ],
+            "data": {
+              "from": "jeffzhengzrj",
+              "to": "eosio.stake",
+              "quantity": "75.9000 EOS",
+              "memo": "stake bandwidth"
+            },
+            "hex_data": "f0ee6753b5bf967a0014341903ea3055d8940b000000000004454f53000000000f7374616b652062616e647769647468"
+          },
+          "elapsed": 4,
+          "cpu_usage": 0,
+          "console": "",
+          "total_cpu_usage": 0,
+          "trx_id": "ab3857fee7d1b5c033c112f725eddb2d3430c36cfa477bca00e5d626ce7d719b",
+          "inline_traces": []
+        }
+      }
+    ],
+    "last_irreversible_block": 10894139
+  }
